@@ -124,3 +124,33 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.banner-contact {
+    background-color: lightgray;
+    padding: 2rem;
+    text-align: center;
+  }
+  .banner-contact h1 {
+    margin: 0 0 0.5rem 0;
+  }
+  .card-contact {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+  }
+  .card-contact p {
+    margin: 0.5rem 0;
+  }
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .contact-info .card {
+    flex: 1 1 45%;
+    margin: 1rem;
+  }
