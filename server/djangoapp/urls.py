@@ -14,7 +14,7 @@ urlpatterns = [
     path(route='logout', view=views.logout_user, name='logout'),
     path(route='register', view=views.registration, name='registration'),
     path(route='get_cars', view=views.get_cars, name ='getcars'),
-
+    path('get_dealers/', views.get_dealers, name='get_dealers'),
     # path for add a review view
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
